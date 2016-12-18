@@ -1,0 +1,33 @@
+{
+  "name": "raspberry-pi-email-notification",
+  "version": "1.0.0",
+  "description": "A project where a led flashes when a mail is received on a Gmail Account.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akselsio/raspberry-pi-email-notification.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "node",
+    "email",
+    "notification"
+  ],
+  "author": "Aksels Ledins <aksels.ledins@gmail.com> (http://aksels.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akselsio/raspberry-pi-email-notification/issues"
+  },
+  "homepage": "https://github.com/akselsio/raspberry-pi-email-notification#readme",
+  "dependencies": {
+    "config": "1.24.0",
+    "gpio-misc": "0.0.1",
+    "imap": "0.8.19",
+    "onoff": "1.1.x"
+  }
+}
