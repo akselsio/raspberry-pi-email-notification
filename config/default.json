@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "email": "aksels.ledins@gmail.com",
+    "password": "foobar"
+  },
+  "imap": {
+    "host": "imap.gmail.com",
+    "port": 993,
+    "tls": true
+  }
+}
