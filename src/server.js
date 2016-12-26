@@ -26,7 +26,7 @@ imap.once('error', err => {
 
 // On new mail blink
 imap.on('mail', () => {
-  // Blink on GPIO24, 42 time
+  // Blink on GPIO24, 42 times
   blink(24,42);
 })
 
